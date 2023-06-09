@@ -1,0 +1,56 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2px;
+    margin: 10px;
+    color: white;
+}
+button {
+    background-color: transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(lightgray, gray);
+    cursor: pointer;
+    margin-left: 15rem;
+}
+.fora-borda .borda  {
+    border: solid gray;
+    border-radius: 100px;
+    width:  500px ;
+    margin: 15px; 
+    box-shadow: inset 7px 6px black;
+    background-color: rgba(198, 123, 241, 0.2);
+}
+body{
+    background:radial-gradient(gray,black) ;
+}
+.cor {
+    color: transparent;
+    background: -webkit-linear-gradient(lightgray, gray); 
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+span {
+    color: bisque;
+    font: bolder;
+
+}
+a{
+text-decoration: none;
+color: brown;
+}
+.desenho {
+    background-image: url(../img/naruto.png);
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.estilo-de-desenho {
+    background-image: url(../img/Desenho.jpg);
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+}
+footer{
+    text-shadow: 2px 2px  purple;
+}
